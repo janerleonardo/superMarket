@@ -12,7 +12,7 @@ import java.math.BigDecimal;
 public class PurchaseProductEntity {
 
     @EmbeddedId
-    private PurchaseProductIDEntity id;
+    private PurchaseProductPKEntity id;
 
     @Column(name = "cantidad")
     private Integer quantity;

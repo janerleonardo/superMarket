@@ -12,7 +12,7 @@ import java.util.List;
 public class CustomerEntity {
 
     @Id
-    @Column(name = "id")
+    //@Column(name = "id")
     private String id;
 
     @Column(name = "nombre")
